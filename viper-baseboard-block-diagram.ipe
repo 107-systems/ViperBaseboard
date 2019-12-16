@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20191213190635" modified="D:20191213195418"/>
+<info created="D:20191213190635" modified="D:20191216144635"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -290,44 +290,44 @@ h
 </path>
 <text matrix="1 0 0 1 296 -168" transformations="translations" pos="104 664" stroke="darkred" type="minipage" width="48" height="18.866" depth="13.9" valign="top" style="center">Zubax Orel 20\\
 ESC \#4</text>
-<text matrix="1 0 0 1 -88 -68" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="10.161" depth="5.18" valign="top" size="tiny" style="center">NINA-W102\\
+<text matrix="1 0 0 1 -88 -12" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="10.161" depth="5.18" valign="top" size="tiny" style="center">NINA-W102\\
 WiFi</text>
-<path matrix="1 0 0 1 -88 -80" stroke="black">
+<path matrix="1 0 0 1 -88 -24" stroke="black">
 192 672 m
 192 640 l
 224 640 l
 224 672 l
 h
 </path>
-<text matrix="1 0 0 1 -88 -104" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="13.149" depth="8.17" valign="top" size="tiny" style="center">F\\
+<text matrix="1 0 0 1 -88 -72" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="13.149" depth="8.17" valign="top" size="tiny" style="center">F\\
 P\\
 G\\
 A</text>
-<path matrix="1 0 0 1 -88 -120" stroke="black">
+<path matrix="1 0 0 1 -88 -88" stroke="black">
 192 672 m
 192 640 l
 224 640 l
 224 672 l
 h
 </path>
-<text matrix="1 0 0 1 -88 -148" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="10.161" depth="5.18" valign="top" size="tiny" style="center">M\\
+<text matrix="1 0 0 1 -88 -140" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="10.161" depth="5.18" valign="top" size="tiny" style="center">M\\
 C\\
 U</text>
-<path matrix="1 0 0 1 -88 -160" stroke="black">
+<path matrix="1 0 0 1 -88 -152" stroke="black">
 192 672 m
 192 640 l
 224 640 l
 224 672 l
 h
 </path>
-<path matrix="1 0 0 1 -136 -72" stroke="turquoise" pen="fat">
+<path matrix="1 0 0 1.33333 -136 -250.667" stroke="turquoise" pen="fat">
 224 680 m
 224 536 l
 288 536 l
 288 680 l
 h
 </path>
-<text matrix="1 0 0 1 -160 -40" transformations="translations" pos="248 672" stroke="turquoise" type="minipage" width="64" height="11.924" depth="6.95" valign="top" style="center">\bf{Arduino}\\
+<text matrix="1 0 0 1 -160 -188" transformations="translations" pos="248 672" stroke="turquoise" type="minipage" width="64" height="11.924" depth="6.95" valign="top" style="center">\bf{Arduino}\\
 \bf{MKR Vidor}</text>
 <path matrix="1 0 0 1 200 0" stroke="lightgreen" pen="fat">
 96 672 m
@@ -339,9 +339,9 @@ h
 <text matrix="1 0 0 1 200 -8" transformations="translations" pos="104 664" stroke="green" type="minipage" width="48" height="17.838" depth="12.88" valign="top" style="center">OV2640\\
 Camera\\
 Module</text>
-<text matrix="1 0 0 1 8 -60" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="8.465" depth="3.49" valign="top" size="tiny" style="center">BNO055\\
-IMU</text>
-<path matrix="1 0 0 1 8 -72" stroke="black">
+<text matrix="1 0 0 1 8 -24" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="7.174" depth="2.19" valign="top" size="tiny" style="center">IMU\\
+BNO085</text>
+<path matrix="1 0 0 1 8 -32" stroke="black">
 192 672 m
 192 640 l
 224 640 l
@@ -382,11 +382,11 @@ h
 384 568 l
 </path>
 <text matrix="1 0 0 1 -152 -96" transformations="translations" pos="392 600" stroke="black" type="minipage" width="8" height="5.7" depth="0.72" valign="top">x2</text>
-<path matrix="1.2 0 0 1 -174.4 -24" stroke="red" arrow="normal/normal" rarrow="normal/normal">
+<path matrix="1.2 0 0 1 -174.4 16" stroke="red" arrow="normal/normal" rarrow="normal/normal">
 272 616 m
 312 616 l
 </path>
-<text matrix="1 0 0 1 -28 -52" transformations="translations" pos="196 652" stroke="red" type="minipage" width="24" height="4.184" depth="0" valign="top" size="tiny" style="center">SPI</text>
+<text matrix="1 0 0 1 -28 -12" transformations="translations" pos="196 652" stroke="red" type="minipage" width="24" height="4.184" depth="0" valign="top" size="tiny" style="center">SPI</text>
 <path matrix="1.2 0 0 1 -174.4 -80" stroke="blue" arrow="normal/normal" rarrow="normal/normal">
 272 616 m
 312 616 l
@@ -397,13 +397,14 @@ h
 312 616 l
 </path>
 <text matrix="1 0 0 1 -28 -164" transformations="translations" pos="196 652" stroke="blue" type="minipage" width="24" height="4.184" depth="0" valign="top" size="tiny" style="center">I2C</text>
-<path matrix="1.2 0 0 1 -174.4 -24" stroke="black" arrow="normal/normal">
+<path matrix="1.2 0 0 1 -174.4 16" stroke="black" arrow="normal/normal">
 312 600 m
 272 600 l
 </path>
-<text matrix="1 0 0 1 -28 -68" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="4.184" depth="0" valign="top" size="tiny" style="center">INT</text>
-<text matrix="1 0 0 1 8 -8" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="5.488" depth="0.49" valign="top" size="tiny" style="center">Altimeter</text>
-<path matrix="1 0 0 1 8 -16" stroke="black">
+<text matrix="1 0 0 1 -28 -28" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="4.184" depth="0" valign="top" size="tiny" style="center">INT</text>
+<text matrix="1 0 0 1 8 -60" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="8.465" depth="3.49" valign="top" size="tiny" style="center">Altimeter\\
+BMP388</text>
+<path matrix="1 0 0 1 8 -72" stroke="black">
 192 672 m
 192 640 l
 224 640 l
@@ -417,7 +418,7 @@ h
 376 672 l
 h
 </path>
-<text matrix="1 0 0 1 -160 -8" transformations="translations" pos="248 672" stroke="purple" type="minipage" width="64" height="11.924" depth="6.95" valign="top" style="center">\bf{Viper}\\
+<text matrix="1 0 0 1 -160 24" transformations="translations" pos="248 672" stroke="purple" type="minipage" width="64" height="11.924" depth="6.95" valign="top" style="center">\bf{Viper}\\
 \bf{Baseboard}</text>
 <path matrix="1.25 0 0 1 -184 0" stroke="darkorange" pen="fat" arrow="normal/normal" rarrow="normal/normal">
 352 584 m
@@ -496,15 +497,30 @@ h
 <text matrix="1 0 0 1 392 -8" transformations="translations" pos="104 664" stroke="black" type="minipage" width="48" height="17.838" depth="12.88" valign="top" style="center">G\\
 P\\
 S?</text>
-<text matrix="1 0 0 1 -32 -4" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="10.161" depth="5.18" valign="top" size="tiny" style="center">P\\
+<text matrix="1 0 0 1 304 -84" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="10.161" depth="5.18" valign="top" size="tiny" style="center">P\\
 W\\
 R</text>
-<path matrix="1 0 0 1 -32 -16" stroke="black">
+<path matrix="1 0 0 1 304 -96" stroke="black">
 192 672 m
 192 640 l
 224 640 l
 224 672 l
 h
 </path>
+<path matrix="1.2 0 0 1 -174.4 -32" stroke="blue" arrow="normal/normal" rarrow="normal/normal">
+272 616 m
+312 616 l
+</path>
+<text matrix="1 0 0 1 -28 -60" transformations="translations" pos="196 652" stroke="blue" type="minipage" width="24" height="4.184" depth="0" valign="top" size="tiny" style="center">I2C</text>
+<path stroke="red" pen="fat" arrow="normal/normal">
+224 704 m
+224 672 l
+</path>
+<text transformations="translations" pos="208 712" stroke="red" type="minipage" width="32" height="5.898" depth="0.91" valign="top" style="center">RC IN</text>
+<path stroke="orange" pen="fat" arrow="normal/normal" rarrow="normal/normal">
+192 704 m
+192 672 l
+</path>
+<text transformations="translations" pos="176 712" stroke="orange" type="minipage" width="32" height="5.898" depth="0.91" valign="top" style="center">DBG</text>
 </page>
 </ipe>
