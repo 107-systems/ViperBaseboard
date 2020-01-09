@@ -7,6 +7,9 @@ The **Viper Baseboard** serves as an adapter board between an Arduino MKR Vidor 
 
 ## Requirements
 ### Functional
+#### Rotational/Translational Stabilisation
+The quadcopter should be able to stabilise itself against external disturbances concerning its orientation and position with respect to a given setpoint. For determining the current orientation of the quadcopter a suitable Inertial Measurement Unit (IMU) with a suitable sensor fusion algorithm shall be used. For determining translational stabilisation a optical flow sensor consisting of a downward facing camera in combination with a suitable optical flow sensor algorithm shall be used.
+
 #### Automonous Landing
 The quadcopter should be able to land without user control. Therefore one or more suitable sensors shall be used to determine the distance between quadcopter and ground. One suitable sensor would be the VL53L0X ToF Sensor allows a measurement range of up to 2 m with a resolution of 1 mm.
 
