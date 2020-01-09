@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20191213190635" modified="D:20191216145622"/>
+<info created="D:20191213190635" modified="D:20200109135706"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -348,23 +348,6 @@ BNO085</text>
 224 672 l
 h
 </path>
-<text matrix="1 0 0 1 8 -104" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="14.44" depth="9.47" valign="top" size="tiny" style="center">VL6180X\\
-ToF Distance</text>
-<path matrix="1 0 0 1 8 -120" stroke="black">
-192 672 m
-192 640 l
-224 640 l
-224 672 l
-h
-</path>
-<path matrix="1 0 0 1 -152 -40" stroke="black">
-360 592 m
-360 600 l
-392 600 l
-392 568 l
-384 568 l
-</path>
-<text matrix="1 0 0 1 -152 -40" transformations="translations" pos="392 600" stroke="black" type="minipage" width="8" height="5.7" depth="0.72" valign="top">x2</text>
 <text matrix="1 0 0 1 8 -160" transformations="translations" pos="196 652" stroke="black" type="minipage" width="24" height="14.44" depth="9.47" valign="top" size="tiny" style="center">VL53L0X\\
 ToF Distance</text>
 <path matrix="1 0 0 1 8 -176" stroke="black">
@@ -381,17 +364,12 @@ h
 392 568 l
 384 568 l
 </path>
-<text matrix="1 0 0 1 -152 -96" transformations="translations" pos="392 600" stroke="black" type="minipage" width="8" height="5.7" depth="0.72" valign="top">x2</text>
+<text matrix="1 0 0 1 -152 -96" transformations="translations" pos="392 600" stroke="black" type="minipage" width="8" height="4.705" depth="0" valign="top">x\bf{n}</text>
 <path matrix="1.2 0 0 1 -174.4 16" stroke="red" arrow="normal/normal" rarrow="normal/normal">
 272 616 m
 312 616 l
 </path>
 <text matrix="1 0 0 1 -28 -12" transformations="translations" pos="196 652" stroke="red" type="minipage" width="24" height="4.184" depth="0" valign="top" size="tiny" style="center">SPI</text>
-<path matrix="1.2 0 0 1 -174.4 -80" stroke="blue" arrow="normal/normal" rarrow="normal/normal">
-272 616 m
-312 616 l
-</path>
-<text matrix="1 0 0 1 -28 -108" transformations="translations" pos="196 652" stroke="blue" type="minipage" width="24" height="4.184" depth="0" valign="top" size="tiny" style="center">I2C</text>
 <path matrix="1.2 0 0 1 -174.4 -136" stroke="blue" arrow="normal/normal" rarrow="normal/normal">
 272 616 m
 312 616 l
