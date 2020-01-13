@@ -10,6 +10,9 @@ The **Viper Baseboard** serves as an adapter board between an Arduino MKR Vidor 
 #### Rotational/Translational Stabilisation
 The quadcopter should be able to stabilise itself against external disturbances concerning its orientation and position with respect to a given setpoint. For determining the current orientation of the quadcopter a suitable Inertial Measurement Unit (IMU) with a suitable sensor fusion algorithm shall be used. For determining translational stabilisation a optical flow sensor consisting of a downward facing camera in combination with a suitable optical flow sensor algorithm shall be used.
 
+#### Vertical (Height) Stabilisation
+The quadcopter should be able to hold a set distance over ground. In close proximity to the ground VL53L0X ToF sensors are used to  determine the distance between ground and quadcopter and prevent an accidential crash. When the distance between quadcopter and ground exceeds the maximum measurement range of the ground sensors the height will be controlled using a digital altimeter such as the BMP388.
+
 #### WiFi based Control/Configuration
 The quadcopter shall provide a WiFi access point to which a WiFi capable device can connect. Once a WiFi connection is established the quadcopter can be controlled via commands exchanged between quadcopter and device via a network socket. A webserver will run on the quadcopter which allows the user to configure and tweak certain aspects of the quadcopter configuration (e.g. control parameters) or read out quadcopter status.
 
