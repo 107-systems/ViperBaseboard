@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20191213190635" modified="D:20200109135706"/>
+<info created="D:20191213190635" modified="D:20200113063524"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -364,7 +364,7 @@ h
 392 568 l
 384 568 l
 </path>
-<text matrix="1 0 0 1 -152 -96" transformations="translations" pos="392 600" stroke="black" type="minipage" width="8" height="4.705" depth="0" valign="top">x\bf{n}</text>
+<text matrix="1 0 0 1 -152 -96" transformations="translations" pos="392 600" stroke="black" type="minipage" width="8" height="5.7" depth="0.72" valign="top">x\bf{3}</text>
 <path matrix="1.2 0 0 1 -174.4 16" stroke="red" arrow="normal/normal" rarrow="normal/normal">
 272 616 m
 312 616 l
