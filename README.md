@@ -19,6 +19,9 @@ The quadcopter shall provide a WiFi access point to which a WiFi capable device 
 #### Automonous Landing
 The quadcopter should be able to land without user control. Three VL53L0X ToF sensors arranged in a triangle are used to determine the distance between ground and quadcopter and also perform an estimation of the grounds surface.
 
+#### FPV (First-Person-View) Control
+The image stream of a forward facing camera (a MIPI connector intented for use with the Omnivision OV5647 camera is available on the MKR VIDOR 4000 board) should be suitably encoded (in the FPGA) and transmitted via WiFi module in such way that a user can be view the image stream e.g. on a mobile phone which allows a FPV control of the quadcopter.
+
 ### Sensors
 #### VL53L0X
 The VL53L0X ToF Sensor allows a measurement range of up to 2 m with a resolution of 1 mm.
