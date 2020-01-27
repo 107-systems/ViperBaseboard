@@ -28,7 +28,8 @@ There should be a socket for a SD card on the baseboard. The flight controller t
 
 ### Sensors
 #### VL53L0X
-The VL53L0X ToF Sensor allows a measurement range of up to 2 m with a resolution of 1 mm.
+The VL53L0X ToF Sensor allows a measurement range of up to 2 m with a resolution of 1 mm.\
+**attention:** all VL53L0X come up with the same I2C address. So we need additional circuitry to disable them with the XSHUT pin und give them individual addresses one after another.
 #### BMP388
 The BMP388 is a precision barometric pressure sensor wich relative accuracy of 8 Pascals, which translates to about ± 0.5 meter of altitude.
 #### BNO085
