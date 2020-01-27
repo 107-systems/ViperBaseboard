@@ -22,6 +22,14 @@ The quadcopter should be able to land without user control. Three VL53L0X ToF se
 ### Sensors
 #### VL53L0X
 The VL53L0X ToF Sensor allows a measurement range of up to 2 m with a resolution of 1 mm.
+#### BMP388
+The BMP388 is a precision barometric pressure sensor wich relative accuracy of 8 Pascals, which translates to about ± 0.5 meter of altitude.
+#### BNO085
+The BNO085 contains 3 axis accelerometers, gyroscopes and magnetometers incl. onboard-algorithms for sensor fusion.
+
+### Actuators
+#### Zubax Orel 20 ESCs
+[Zubax Orel 20](https://kb.zubax.com/display/MAINKB/Zubax+Orel+20) are used as ESC (Electronic Speed Controllers) and controlled via [UAVCAN](https://uavcan.org).
 
 ### Electrical
 #### Input voltage
