@@ -65,6 +65,14 @@ Current: up to 100 mA, should be OK for the onboard regulator
 #### Connectors (mechanical and pinout)
 ##### battery / input
 ##### CAN
+The Zubax Orel 20 ESCs utilize the [JST GH](http://www.jst-mfg.com/product/detail_e.php?series=105) connectors with a pitch of 1.25 mm.
+
+| **Pin** |	**Signal** |
+|:-------:|:----------:|
+| 1       | VCC        |
+| 2       | CAN_H	     |
+| 3       | CAN_L	     |
+| 4       | GND        |
 ##### I2C
 
 #### connections of Arduino MKR Vidor 4000
