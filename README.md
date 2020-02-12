@@ -6,7 +6,7 @@ The **Viper Baseboard** serves as an adapter board between an Arduino MKR Vidor 
 
 ![Block Diagramm](viper-baseboard-block-diagram.png)
 
-The block diagramm has been created using [Ipe](http://ipe.otfried.org/) which can be installed via `sudo apt-get install ipe texlive-full`).
+The block diagramm has been created using [Ipe](http://ipe.otfried.org/) which can be installed via `sudo apt-get install ipe texlive-full` or `sudo apt-get install ipe texlive-base texlive-latex-recommended` for minimal installation).
 
 ## Requirements
 ### Functional Requirements
