@@ -75,17 +75,48 @@ The Zubax Orel 20 ESCs utilize the [JST GH](http://www.jst-mfg.com/product/detai
 
 * **MKR connector** (2.54 mm pinheader, 28 pins)
   * I2C
-  * CAN over SPI
+  * CAN over SPI (like on MKRCANShield)
   * 5V input, 3.3V output
   * RC_IN (for additional remote control receiver)
-  * OV2640 camera, if enough pins available?
+
+| **Pin** | **Pin Name** | **Signal**    | **Description**                |
+|:-------:|:------------:|:-------------:|:------------------------------:|
+| 1       | AREF         | not connected |                                |
+| 2       | DAC0/A0      |               |                                |
+| 3       | A1           |               |                                |
+| 4       | A2           |               |                                |
+| 5       | A3           |               |                                |
+| 6       | A4           |               |                                |
+| 7       | A5           |               |                                |
+| 8       | A6           |               |                                |
+| 9       | D0           | RC_IN         | remote receiver input          |
+| 10      | D1           |               |                                |
+| 11      | D2           |               |                                |
+| 12      | D3           | MCP2515_CS    | like MKRCANShield              |
+| 13      | D4           |               |                                |
+| 14      | D5           |               |                                |
+| 15      | D6           |               |                                |
+| 16      | D7           | MCP2515_INT   | like MKRCANShield              |
+| 17      | D8/MOSI      | MOSI          | MCP2515                        |
+| 18      | D9/SCK       | SCK           | MCP2515                        |
+| 19      | D10/MISO     | MISO          | MCP2515                        |
+| 20      | D11/SDA      | SDA           | I2C for sensors                |
+| 21      | D12/SCL      | SCL           | I2C for sensors                |
+| 22      | D13/RX       | GPS_RX        | communication with gps module  |
+| 23      | D14/TX       | GPS_TX        | communication with gps module  |
+| 24      | RESET        | not connected |                                |
+| 25      | GND          | GND           |                                |
+| 26      | 3V3          | 3V3-rail      | supply voltage for sensors ... |
+| 27      | VIN          | 5V            | input from voltage regulator   |
+| 28      | 5V           | not connected |                                |
+
 
 * **USB**: Programming and debugging
 * **I2C**: Not used, redundant to MKR connector
 * **LiPo**: not used, not suitable
 * **MicroHDMI**: not used
 * **MiPi Camera Connector**: reserved for front facing camera
-* **MiniPCIe Connector**: Connection to OV2640 camera mpdule serving as optical flow sensor.
+* **MiniPCIe Connector**: Connection to OV2640 camera module serving as optical flow sensor. Using VidorCameraAdapter.
 
 ### Mechanical Requirements
 
