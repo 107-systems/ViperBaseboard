@@ -1,0 +1,79 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MEMS:BNO085 U6
+U 1 1 5E85E05C
+P 2700 4100
+F 0 "U6" H 3525 6287 60  0000 C CNN
+F 1 "BNO085" H 3525 6181 60  0000 C CNN
+F 2 "LGA:LGA-28-5832" H 3300 4050 60  0001 C CNN
+F 3 "" H 2700 4250 60  0000 C CNN
+	1    2700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR014
+U 1 1 5E85E8FA
+P 2600 4050
+F 0 "#PWR014" H 2600 3800 50  0001 C CNN
+F 1 "GND" H 2605 3877 50  0000 C CNN
+F 2 "" H 2600 4050 50  0000 C CNN
+F 3 "" H 2600 4050 50  0000 C CNN
+	1    2600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:+3.3V #PWR013
+U 1 1 5E85EE78
+P 2600 2100
+F 0 "#PWR013" H 2600 1950 50  0001 C CNN
+F 1 "+3.3V" H 2615 2273 50  0000 C CNN
+F 2 "" H 2600 2100 50  0000 C CNN
+F 3 "" H 2600 2100 50  0000 C CNN
+	1    2600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2300 2600 2300
+Wire Wire Line
+	2600 2300 2600 2200
+Wire Wire Line
+	2700 2200 2600 2200
+Connection ~ 2600 2200
+Wire Wire Line
+	2600 2200 2600 2100
+Wire Wire Line
+	2700 3850 2600 3850
+Wire Wire Line
+	2600 3850 2600 3950
+Wire Wire Line
+	2700 3950 2600 3950
+Connection ~ 2600 3950
+Wire Wire Line
+	2600 3950 2600 4050
+Text GLabel 1850 3750 0    50   BiDi ~ 0
+I2C_SDA
+Text GLabel 1850 3650 0    50   Input ~ 0
+I2C_SCL
+Wire Wire Line
+	2700 3650 1850 3650
+Wire Wire Line
+	1850 3750 2700 3750
+Text Label 2100 3750 0    50   ~ 0
+I2C_SDA
+Text Label 2100 3650 0    50   ~ 0
+I2C_SCL
+$EndSCHEMATC

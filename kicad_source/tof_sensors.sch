@@ -1,0 +1,340 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IC_sensor:VL53L0X U1
+U 1 1 5E875030
+P 6900 1400
+F 0 "U1" H 6900 2047 60  0000 C CNN
+F 1 "VL53L0X" H 6900 1941 60  0000 C CNN
+F 2 "IC_sensor:VL53L0X" H 6800 1800 60  0001 C CNN
+F 3 "" H 6900 1400 60  0000 C CNN
+	1    6900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1500 6200 1500
+Wire Wire Line
+	5350 1600 6200 1600
+NoConn ~ 7600 1400
+$Comp
+L power-supply:+3.3V #PWR07
+U 1 1 5E875CC9
+P 7700 900
+F 0 "#PWR07" H 7700 750 50  0001 C CNN
+F 1 "+3.3V" H 7715 1073 50  0000 C CNN
+F 2 "" H 7700 900 50  0000 C CNN
+F 3 "" H 7700 900 50  0000 C CNN
+	1    7700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR03
+U 1 1 5E876458
+P 6100 1900
+F 0 "#PWR03" H 6100 1650 50  0001 C CNN
+F 1 "GND" H 6105 1727 50  0000 C CNN
+F 2 "" H 6100 1900 50  0000 C CNN
+F 3 "" H 6100 1900 50  0000 C CNN
+	1    6100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1200 7600 1200
+Wire Wire Line
+	7600 1800 7700 1800
+Wire Wire Line
+	7700 1800 7700 1000
+Wire Wire Line
+	7600 1000 7700 1000
+Connection ~ 7700 1000
+Wire Wire Line
+	7700 1000 7700 900 
+Wire Wire Line
+	6200 1000 6100 1000
+Wire Wire Line
+	6100 1000 6100 1100
+Wire Wire Line
+	6200 1800 6100 1800
+Connection ~ 6100 1800
+Wire Wire Line
+	6100 1800 6100 1900
+Wire Wire Line
+	6200 1300 6100 1300
+Connection ~ 6100 1300
+Wire Wire Line
+	6100 1300 6100 1800
+Wire Wire Line
+	6200 1200 6100 1200
+Connection ~ 6100 1200
+Wire Wire Line
+	6100 1200 6100 1300
+Wire Wire Line
+	6200 1100 6100 1100
+Connection ~ 6100 1100
+Wire Wire Line
+	6100 1100 6100 1200
+Text Label 7800 1200 0    50   ~ 0
+XSHUT
+Text Label 5500 1500 0    50   ~ 0
+I2C_SDA
+Text Label 5500 1600 0    50   ~ 0
+I2C_SCL
+NoConn ~ 7600 1300
+$Comp
+L IC_sensor:VL53L0X U2
+U 1 1 5E877D9C
+P 6900 2850
+F 0 "U2" H 6900 3497 60  0000 C CNN
+F 1 "VL53L0X" H 6900 3391 60  0000 C CNN
+F 2 "IC_sensor:VL53L0X" H 6800 3250 60  0001 C CNN
+F 3 "" H 6900 2850 60  0000 C CNN
+	1    6900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2950 6200 2950
+Wire Wire Line
+	5350 3050 6200 3050
+NoConn ~ 7600 2850
+$Comp
+L power-supply:+3.3V #PWR08
+U 1 1 5E877DA9
+P 7700 2350
+F 0 "#PWR08" H 7700 2200 50  0001 C CNN
+F 1 "+3.3V" H 7715 2523 50  0000 C CNN
+F 2 "" H 7700 2350 50  0000 C CNN
+F 3 "" H 7700 2350 50  0000 C CNN
+	1    7700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR04
+U 1 1 5E877DB3
+P 6100 3350
+F 0 "#PWR04" H 6100 3100 50  0001 C CNN
+F 1 "GND" H 6105 3177 50  0000 C CNN
+F 2 "" H 6100 3350 50  0000 C CNN
+F 3 "" H 6100 3350 50  0000 C CNN
+	1    6100 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2650 7600 2650
+Wire Wire Line
+	7600 3250 7700 3250
+Wire Wire Line
+	7700 3250 7700 2450
+Wire Wire Line
+	7600 2450 7700 2450
+Connection ~ 7700 2450
+Wire Wire Line
+	7700 2450 7700 2350
+Wire Wire Line
+	6200 2450 6100 2450
+Wire Wire Line
+	6100 2450 6100 2550
+Wire Wire Line
+	6200 3250 6100 3250
+Connection ~ 6100 3250
+Wire Wire Line
+	6100 3250 6100 3350
+Wire Wire Line
+	6200 2750 6100 2750
+Connection ~ 6100 2750
+Wire Wire Line
+	6100 2750 6100 3250
+Wire Wire Line
+	6200 2650 6100 2650
+Connection ~ 6100 2650
+Wire Wire Line
+	6100 2650 6100 2750
+Wire Wire Line
+	6200 2550 6100 2550
+Connection ~ 6100 2550
+Wire Wire Line
+	6100 2550 6100 2650
+Text Label 7800 2650 0    50   ~ 0
+XSHUT
+Text Label 5500 2950 0    50   ~ 0
+I2C_SDA
+Text Label 5500 3050 0    50   ~ 0
+I2C_SCL
+NoConn ~ 7600 2750
+$Comp
+L IC_sensor:VL53L0X U3
+U 1 1 5E87B581
+P 6900 4300
+F 0 "U3" H 6900 4947 60  0000 C CNN
+F 1 "VL53L0X" H 6900 4841 60  0000 C CNN
+F 2 "IC_sensor:VL53L0X" H 6800 4700 60  0001 C CNN
+F 3 "" H 6900 4300 60  0000 C CNN
+	1    6900 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4400 6200 4400
+Wire Wire Line
+	5350 4500 6200 4500
+NoConn ~ 7600 4300
+$Comp
+L power-supply:+3.3V #PWR09
+U 1 1 5E87B58E
+P 7700 3800
+F 0 "#PWR09" H 7700 3650 50  0001 C CNN
+F 1 "+3.3V" H 7715 3973 50  0000 C CNN
+F 2 "" H 7700 3800 50  0000 C CNN
+F 3 "" H 7700 3800 50  0000 C CNN
+	1    7700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR05
+U 1 1 5E87B598
+P 6100 4800
+F 0 "#PWR05" H 6100 4550 50  0001 C CNN
+F 1 "GND" H 6105 4627 50  0000 C CNN
+F 2 "" H 6100 4800 50  0000 C CNN
+F 3 "" H 6100 4800 50  0000 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4100 7600 4100
+Wire Wire Line
+	7600 4700 7700 4700
+Wire Wire Line
+	7700 4700 7700 3900
+Wire Wire Line
+	7600 3900 7700 3900
+Connection ~ 7700 3900
+Wire Wire Line
+	7700 3900 7700 3800
+Wire Wire Line
+	6200 3900 6100 3900
+Wire Wire Line
+	6100 3900 6100 4000
+Wire Wire Line
+	6200 4700 6100 4700
+Connection ~ 6100 4700
+Wire Wire Line
+	6100 4700 6100 4800
+Wire Wire Line
+	6200 4200 6100 4200
+Connection ~ 6100 4200
+Wire Wire Line
+	6100 4200 6100 4700
+Wire Wire Line
+	6200 4100 6100 4100
+Connection ~ 6100 4100
+Wire Wire Line
+	6100 4100 6100 4200
+Wire Wire Line
+	6200 4000 6100 4000
+Connection ~ 6100 4000
+Wire Wire Line
+	6100 4000 6100 4100
+Text Label 7800 4100 0    50   ~ 0
+XSHUT
+Text Label 5500 4400 0    50   ~ 0
+I2C_SDA
+Text Label 5500 4500 0    50   ~ 0
+I2C_SCL
+NoConn ~ 7600 4200
+$Comp
+L IC_sensor:VL53L0X U4
+U 1 1 5E87B5BA
+P 6900 5750
+F 0 "U4" H 6900 6397 60  0000 C CNN
+F 1 "VL53L0X" H 6900 6291 60  0000 C CNN
+F 2 "IC_sensor:VL53L0X" H 6800 6150 60  0001 C CNN
+F 3 "" H 6900 5750 60  0000 C CNN
+	1    6900 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 5850 6200 5850
+Wire Wire Line
+	5350 5950 6200 5950
+NoConn ~ 7600 5750
+$Comp
+L power-supply:+3.3V #PWR010
+U 1 1 5E87B5C7
+P 7700 5250
+F 0 "#PWR010" H 7700 5100 50  0001 C CNN
+F 1 "+3.3V" H 7715 5423 50  0000 C CNN
+F 2 "" H 7700 5250 50  0000 C CNN
+F 3 "" H 7700 5250 50  0000 C CNN
+	1    7700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR06
+U 1 1 5E87B5D1
+P 6100 6250
+F 0 "#PWR06" H 6100 6000 50  0001 C CNN
+F 1 "GND" H 6105 6077 50  0000 C CNN
+F 2 "" H 6100 6250 50  0000 C CNN
+F 3 "" H 6100 6250 50  0000 C CNN
+	1    6100 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5550 7600 5550
+Wire Wire Line
+	7600 6150 7700 6150
+Wire Wire Line
+	7700 6150 7700 5350
+Wire Wire Line
+	7600 5350 7700 5350
+Connection ~ 7700 5350
+Wire Wire Line
+	7700 5350 7700 5250
+Wire Wire Line
+	6200 5350 6100 5350
+Wire Wire Line
+	6100 5350 6100 5450
+Wire Wire Line
+	6200 6150 6100 6150
+Connection ~ 6100 6150
+Wire Wire Line
+	6100 6150 6100 6250
+Wire Wire Line
+	6200 5650 6100 5650
+Connection ~ 6100 5650
+Wire Wire Line
+	6100 5650 6100 6150
+Wire Wire Line
+	6200 5550 6100 5550
+Connection ~ 6100 5550
+Wire Wire Line
+	6100 5550 6100 5650
+Wire Wire Line
+	6200 5450 6100 5450
+Connection ~ 6100 5450
+Wire Wire Line
+	6100 5450 6100 5550
+Text Label 7800 5550 0    50   ~ 0
+XSHUT
+Text Label 5500 5850 0    50   ~ 0
+I2C_SDA
+Text Label 5500 5950 0    50   ~ 0
+I2C_SCL
+NoConn ~ 7600 5650
+Text GLabel 5350 1500 0    50   BiDi ~ 0
+I2C_SDA
+Text GLabel 5350 1600 0    50   Input ~ 0
+I2C_SCL
+$EndSCHEMATC
