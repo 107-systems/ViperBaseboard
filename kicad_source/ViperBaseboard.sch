@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "ViperBaseboard"
 Date "2020-04-02"
 Rev "0.1"
@@ -141,4 +141,10 @@ Text Label 4900 3900 0    50   ~ 0
 SER_RX
 Text Label 4900 3800 0    50   ~ 0
 SER_TX
+$Sheet
+S 9500 3500 1000 500 
+U 5E85D0D5
+F0 "IMU" 50
+F1 "imu.sch" 50
+$EndSheet
 $EndSCHEMATC
