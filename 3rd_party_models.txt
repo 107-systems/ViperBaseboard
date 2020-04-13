@@ -1,0 +1,5 @@
+sources of 3rd party moldels:
+
+propeller: https://grabcad.com/library/tri-blade-3d-printable-o4-5-o114-3mm-drone-propeller-1
+bldc motor: https://grabcad.com/library/t-motor-f60-220kv-brushless-motor-for-racing-drones-1
+
