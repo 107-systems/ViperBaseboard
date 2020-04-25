@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bernhard/projects/viper-baseboard/kicad_source/ViperBaseboard.sch)
-    (date "Do 02 Apr 2020 10:01:53 CEST")
+    (date "Fr 24 Apr 2020 23:37:43 CEST")
     (tool "Eeschema 5.1.5-52549c5~86~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -74,7 +74,7 @@
       (tstamp 5E86FE97))
     (comp (ref CN1)
       (value ARDUINO_MKR)
-      (footprint MODULE_compute:ARDUINO_MKR)
+      (footprint MODULE_compute:ARDUINO_MKR_BASEBOARD)
       (libsource (lib MODULE_compute) (part ARDUINO_MKR) (description "Raspberry Pi GPIO header"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5E8708C5))
