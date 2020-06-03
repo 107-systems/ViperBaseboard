@@ -103,7 +103,7 @@ The Zubax Orel 20 ESCs utilize the [JST GH](http://www.jst-mfg.com/product/detai
 | 10      | D1           |               |                                |
 | 11      | D2           |               |                                |
 | 12      | D3           | MCP2515_CS    | like MKRCANShield              |
-| 13      | D4           |               |                                |
+| 13      | D4           | SD_CS         | like MKR SD PROTO SHIELD       |
 | 14      | D5           |               |                                |
 | 15      | D6           |               |                                |
 | 16      | D7           | MCP2515_INT   | like MKRCANShield              |

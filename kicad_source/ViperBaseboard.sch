@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "ViperBaseboard"
 Date "2020-04-02"
 Rev "0.1"
@@ -187,4 +187,16 @@ U 5ED92F9C
 F0 "MCP2515" 50
 F1 "mcp2515.sch" 50
 $EndSheet
+$Sheet
+S 9500 1500 1000 500 
+U 5EDB73FA
+F0 "SD-Card" 50
+F1 "sd-card.sch" 50
+$EndSheet
+Wire Wire Line
+	2150 4500 2950 4500
+Text Label 2250 4500 0    50   ~ 0
+SD_CS
+Text GLabel 2150 4500 0    50   Output ~ 0
+SD_CS
 $EndSCHEMATC
