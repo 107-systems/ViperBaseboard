@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "ViperBaseboard"
 Date "2020-04-02"
 Rev "0.1"
@@ -146,5 +146,45 @@ S 9500 3500 1000 500
 U 5E85D0D5
 F0 "IMU" 50
 F1 "imu.sch" 50
+$EndSheet
+Wire Wire Line
+	5800 4500 4150 4500
+Wire Wire Line
+	5800 4400 4150 4400
+Text Label 4900 4500 0    50   ~ 0
+MCP2515_INT
+Text Label 4900 4400 0    50   ~ 0
+MOSI
+Text GLabel 5800 4500 2    50   Input ~ 0
+MCP2515_INT
+Text GLabel 5800 4400 2    50   Output ~ 0
+MOSI
+Text GLabel 5800 4300 2    50   Input ~ 0
+SCK
+Text GLabel 5800 4200 2    50   Output ~ 0
+MISO
+Wire Wire Line
+	5800 4200 4150 4200
+Wire Wire Line
+	4150 4300 5800 4300
+Text Label 4900 4300 0    50   ~ 0
+SCK
+Text Label 4900 4200 0    50   ~ 0
+MISO
+Wire Wire Line
+	2150 4100 2950 4100
+Text Label 2250 4100 0    50   ~ 0
+RC_IN
+Wire Wire Line
+	2150 4400 2950 4400
+Text Label 2250 4400 0    50   ~ 0
+MCP2515_CS
+Text GLabel 2150 4400 0    50   Output ~ 0
+MCP2515_CS
+$Sheet
+S 9500 2500 1000 500 
+U 5ED92F9C
+F0 "MCP2515" 50
+F1 "mcp2515.sch" 50
 $EndSheet
 $EndSCHEMATC
