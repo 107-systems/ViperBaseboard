@@ -7,6 +7,7 @@ This repository contains the requirements and the hardware design for MKR Vidor 
 ![ViperQuadcopter rendering bot](doc/images/ViperQuadcopter_rendering_bot.png)
 
 ## PCB renderings
+![ViperBaseboard rendering](doc/images/ViperBaseboard_rendering.png)
 ![ViperBaseboard top](doc/images/ViperBaseboard_top.png)
 ![ViperBaseboard bot](doc/images/ViperBaseboard_bot.png)
 
