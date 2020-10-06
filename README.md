@@ -8,11 +8,13 @@ ViperBaseboard
 This repository contains the requirements and the hardware design for MKR Vidor 4000 based Viper quadcopter.
 
 ## Quadcopter renderings
-![ViperQuadcopter rendering top](doc/images/ViperQuadcopter_rendering_top.png)
-![ViperQuadcopter rendering bot](doc/images/ViperQuadcopter_rendering_bot.png)
+![ViperQuadcopter TOP](doc/images/ViperQuadcopter_rendering_top.png)
+![ViperQuadcopter BOT](doc/images/ViperQuadcopter_rendering_bot.png)
 
 ## PCB renderings
-![ViperBaseboard top](doc/images/ViperBaseboard_top.png)
+![ViperBaseboard 3D](doc/images/ViperBaseboard_rendering.png)
+![ViperBaseboard TOP](doc/images/ViperBaseboard_top.png)
+![ViperBaseboard BOT](doc/images/ViperBaseboard_bot.png)
 
 The **Viper Baseboard** serves as an adapter board between an Arduino MKR Vidor 4000 and various sensors and actuators in order to implement a flight controller for a quadcopter UAV.
 
