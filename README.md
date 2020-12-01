@@ -2,7 +2,7 @@ ViperBaseboard
 ==============
 
 <p align="center">
-  <a href="https://github.com/107-systems/107-Arduino-Viper"><img src="https://github.com/107-systems/.github/raw/main/viper-logo.jpg" width="40%"></a>
+  <a href="https://github.com/107-systems/107-Arduino-Viper"><img src="https://github.com/107-systems/.github/raw/main/logo/viper.jpg" width="40%"></a>
 </p>
 
 This repository contains the requirements and the hardware design for MKR Vidor 4000 based Viper quadcopter.
