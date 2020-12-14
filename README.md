@@ -12,7 +12,9 @@ This repository contains the requirements and the hardware design for MKR Vidor 
 ![ViperQuadcopter rendering bot](doc/images/ViperQuadcopter_rendering_bot.png)
 
 ## PCB renderings
+![ViperBaseboard rendering](doc/images/ViperBaseboard_rendering.png)
 ![ViperBaseboard top](doc/images/ViperBaseboard_top.png)
+![ViperBaseboard bot](doc/images/ViperBaseboard_bot.png)
 
 The **Viper Baseboard** serves as an adapter board between an Arduino MKR Vidor 4000 and various sensors and actuators in order to implement a flight controller for a quadcopter UAV.
 
@@ -107,7 +109,7 @@ The Zubax Orel 20 ESCs utilize the [JST GH](http://www.jst-mfg.com/product/detai
 | 10      | D1           |               |                                |
 | 11      | D2           |               |                                |
 | 12      | D3           | MCP2515_CS    | like MKRCANShield              |
-| 13      | D4           |               |                                |
+| 13      | D4           | SD_CS         | like MKR SD PROTO SHIELD       |
 | 14      | D5           |               |                                |
 | 15      | D6           |               |                                |
 | 16      | D7           | MCP2515_INT   | like MKRCANShield              |
