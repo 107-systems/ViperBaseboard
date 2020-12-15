@@ -8,17 +8,17 @@ ViperBaseboard
 This repository contains the requirements and the hardware design for MKR Vidor 4000 based Viper quadcopter.
 
 ## Quadcopter renderings
-![ViperQuadcopter rendering top](doc/images/ViperQuadcopter_rendering_top.png)
-![ViperQuadcopter rendering bot](doc/images/ViperQuadcopter_rendering_bot.png)
+<p align="center"><img src="doc/images/ViperQuadcopter_rendering_top.png" width="40%"></p>
+<p align="center"><img src="doc/images/ViperQuadcopter_rendering_bot.png" width="40%"></p>
 
 ## PCB renderings
-![ViperBaseboard rendering](doc/images/ViperBaseboard_rendering.png)
-![ViperBaseboard top](doc/images/ViperBaseboard_top.png)
-![ViperBaseboard bot](doc/images/ViperBaseboard_bot.png)
+<p align="center"><img src="doc/images/ViperBaseboard_rendering.png" width="40%"></p>
+<p align="center"><img src="doc/images/ViperBaseboard_top.png" width="40%"></p>
+<p align="center"><img src="doc/images/ViperBaseboard_bot.png" width="40%"></p>
 
 The **Viper Baseboard** serves as an adapter board between an Arduino MKR Vidor 4000 and various sensors and actuators in order to implement a flight controller for a quadcopter UAV.
 
-![Block Diagramm](viper-baseboard-block-diagram.png)
+<p align="center"><img src="viper-baseboard-block-diagram.png" width="75%"></p>
 
 The block diagramm has been created using [Ipe](http://ipe.otfried.org/) which can be installed via `sudo apt-get install ipe texlive-full` or `sudo apt-get install ipe texlive-base texlive-latex-recommended` for minimal installation).
 
